@@ -1,0 +1,214 @@
+@import url("./header.css");
+@import url("./ocnova.css");
+@import url("./title.css");
+@import url("./main-rov.css");
+@import url("./contacts.css");
+@import url("./footer.css");
+@import url("./help.css");
+@import url("./hom.css");
+@import url("./register.css");
+@import url("./registr.css");
+@import url("./tup-up-your-account.css");
+@import url("./CsGo.css");
+@import url("./Dota.css");
+
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.contacts_li1{
+    color: white;
+}
+.bars1 div{
+    width: 20px;
+    height: 2.5px;
+    background-color:white;
+    border-radius: 0;
+    margin: 4px 0;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.bars2 div{
+    width: 10px;
+    height: 3px;
+    background-color:white;
+    border-radius: 0;
+    margin: 4px 0;
+    border-radius: 10px;
+}
+.bars3 div{
+    width: 20px;
+    height: 2.5px;
+    background-color:white;
+    border-radius: 0;
+    margin: 4px 0;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+.logo_bars{
+    display: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    width: 1224px;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+@media screen and (max-width:1024px) {
+    .conteiner{
+        width: 95%;
+        margin: auto;
+    }
+    .osnova h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+   .main4{
+    display: none;
+   } 
+   .navbar_right div span{
+    display: none;
+   }
+   .navbar_21 ul li{
+    font-size: 10px;
+   }
+   .title-img-CsGo img{
+    width: 120px;
+   }
+   .navbar_right span{
+    display: none;
+   }
+   .Dota span{
+    width: 110px;
+    height: 42px;
+   }
+   .Csgo span{
+    width: 110px;
+    height: 42px;
+   }
+   .title-dota img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    padding-top: 3px;
+   }
+   .title-img img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    padding-top: 8px;
+   }
+   .title-dota p{
+    font-size: 13px;
+   }
+    .help .conteiner h2{
+    font-size: 40px;
+   }
+   .contacts .conteiner h2{
+    font-size: 40px;
+   }
+   .navbar_right button{
+    display: none;
+   }
+   .logo_bars{
+    display: block;  
+}
+   .left-h1 h2{
+    font-size: 20px;
+   }
+   .left-h1 p{
+    font-size: 10px;
+   }
+   .homCard{
+    flex-wrap: wrap;
+   }
+   .homCard22{
+    width: 300px;
+   }
+   .homCard2{
+    width: 300px;
+   }
+   .help_card1{
+    width: 300px;
+   }
+   .help_card{
+    width: 300px;
+   }
+   .registreyshion{
+    padding: 50px 0;
+   }
+}
+@media screen and (max-width: 425px) {
+    .osnova h1{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .osnova_button button{
+        display: none;
+    }
+    .navbar_right div button{
+        display: none;
+    }
+    .navbar_1_img_1{
+        width: 50%;
+    }
+    .navbar_1_img_2{
+        width: 100%;  
+    }
+    .navbar_top{
+        justify-content: space-between;
+
+    }
+    .navbar_1{
+        width: 50px;
+    }
+    .title .conteiner h1{
+        display: none;
+    }
+    .navbar_21 ul{
+        display: none; 
+    }
+    .ul_title{
+        padding-top: 20px;
+    }
+    .logo_bars{
+        display: block;  
+    }
+    .loading {
+        display: none;
+    }
+    .main-rov .main3{
+        display: none;
+    }
+    .hrhr{
+        display: none;
+    }
+    .main-rov .conteiner hr{
+        display: none;
+    }
+    .gap{
+        padding-top: 10px;
+    }
+    .navbar_2{
+        display: none;
+    }
+    .footer p,ul li{
+        font-size: 7px;
+    }
+}
+@media screen and (max-width:375px) {
+    .navbar_top{
+        justify-content: space-between;
+    }
+}
